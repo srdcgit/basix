@@ -60,7 +60,7 @@
 	<div class="navbar navbar-expand-md navbar-dark">
 		<div class="navbar-brand">
 			<a href="{{url('/')}}" class="text-light">
-				<img src="https://bkslmis.in/user_asset/global_assets/images/basix.jpg" alt="image" style="width:200px;margin-bottom:10px">
+				<img src="https://bkslmis.in/user_asset/global_assets/images/basix.jpg" alt="image" style="height:100px;">
 			</a>
 		</div>
 
