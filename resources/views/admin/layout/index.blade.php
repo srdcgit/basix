@@ -202,7 +202,7 @@
 								<span>Respondent Master Form</span>
 							</a>
 						</li>
-						<li class="nav-item nav-item-submenu {{Request::is('admin/country*') || Request::is('admin/state*') || Request::is('admin/city*') || Request::is('admin/district*')  || Request::is('admin/police_station*')  || Request::is('admin/block*') || Request::is('admin/gram_panchyat*') || Request::is('admin/village*') ?'nav-item-open':''}}">
+						<li class="nav-item nav-item-submenu {{Request::is('admin/country*') || Request::is('admin/state*') || Request::is('admin/district*')  || Request::is('admin/block*') || Request::is('admin/gram_panchyat*') || Request::is('admin/village*') ?'nav-item-open':''}}">
 							<a href="#" class="nav-link"><i class="icon-map"></i> <span>Locations</span></a>
 
 							<ul class="nav nav-group-sub" data-submenu-title="Layouts" style="{{Request::is('admin/country*') || Request::is('admin/state*') || Request::is('admin/city*') || Request::is('admin/village*') || Request::is('admin/district*') || Request::is('admin/police_station*') || Request::is('admin/block*') || Request::is('admin/gram_panchyat*')?'display:block':''}}">
