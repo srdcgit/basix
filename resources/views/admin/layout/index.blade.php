@@ -4,7 +4,7 @@
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-	<title>{{Auth::user()->name}} Admin Panel | SDS MIS</title>
+	<title>{{Auth::user()->name}} Admin Panel | BASIX MIS</title>
 
 	<!-- Global stylesheets -->
 	<link href="https://fonts.googleapis.com/css?family=Roboto:400,300,100,500,700,900" rel="stylesheet" type="text/css">
@@ -182,12 +182,11 @@
 							</ul>
 						</li>
 						<li class="nav-item nav-item-submenu {{Request::is('admin/farming_profile*') || Request::is('admin/pond_preparation*') || Request::is('admin/monthly_farming_report*')?'nav-item-open':''}}">
-							<a href="#" class="nav-link"><i class="icon-home4"></i> <span>Fishery Project</span></a>
+							<a href="#" class="nav-link"><i class="icon-home4"></i> <span>Goatery Project</span></a>
 
 							<ul class="nav nav-group-sub" data-submenu-title="Layouts" style="{{Request::is('admin/farming_profile*')  || Request::is('admin/pond_preparation*') || Request::is('admin/monthly_farming_report*') ?'display:block':''}}">
 								<li class="nav-item"><a href="{{route('admin.farming_profile.index')}}" class="nav-link {{Request::is('admin/farming_profile') || Request::is('admin/farming_profile/*') ?'active':''}}">Farming Profile</a></li>
-								{{-- <li class="nav-item"><a href="{{route('admin.pond_preparation.index')}}" class="nav-link {{Request::is('admin/pond_preparation') || Request::is('admin/pond_preparation/*') ?'active':''}}">Pond Preparation</a></li> --}}
-								<li class="nav-item"><a href="{{route('admin.monthly_farming_report.index')}}" class="nav-link {{Request::is('admin/monthly_farming_report') || Request::is('admin/monthly_farming_report/*') ?'active':''}}">Monthly Farming Report</a></li>
+								<li class="nav-item"><a href="{{route('admin.monthly_farming_report.index')}}" class="nav-link {{Request::is('admin/monthly_farming_report') || Request::is('admin/monthly_farming_report/*') ?'active':''}}">Monthly Report</a></li>
 							</ul>
 						</li>
 						<li class="nav-item nav-item-submenu {{Request::is('admin/training_report*') ?'nav-item-open':''}}">

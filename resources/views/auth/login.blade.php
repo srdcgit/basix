@@ -5,7 +5,7 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <title>LOGIN | PROJECT SYSTEM </title>
+    <title>LOGIN | BKSL </title>
 
     <!-- Global stylesheets -->
     <link rel="shortcut icon" type="image/png" href="{{ asset('front/image/favicon.png') }}">
@@ -52,10 +52,9 @@
                     <div class="card mb-0">
                         <div class="card-body">
                             <div class="text-center mb-3">
-                                <i
-                                    class="icon-people icon-2x text-warning-400 border-warning-400 border-3 rounded-round p-3 mb-3 mt-1"></i>
-                                <h5 class="mb-0">Project System</h5>
-                                <span class="d-block text-muted">Login to your account</span>
+                                <img src="https://bkslmis.in/user_asset/global_assets/images/basix.jpg" alt="image" style="width:200px;margin-bottom:10px">
+                                <h5 class="mb-0">Login to your account</h5>
+                               
                             </div>
 
                             <div class="form-group form-group-feedback form-group-feedback-left">
