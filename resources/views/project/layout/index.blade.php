@@ -5,7 +5,7 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <title>{{ Auth::user()->name }} Project Panel | SDS MIS</title>
+    <title>{{ Auth::user()->name }} Project Panel | BASIX MIS</title>
 
     <!-- Global stylesheets -->
     <link href="https://fonts.googleapis.com/css?family=Roboto:400,300,100,500,700,900" rel="stylesheet" type="text/css">
@@ -146,7 +146,7 @@
 
                             <div class="media-body">
                                 <div class="media-title font-weight-semibold">{{ Auth::user()->name }}</div>
-                                <div class="font-size-xs opacity-50">SDS
+                                <div class="font-size-xs opacity-50">BASIX
                                 </div>
                             </div>
 
