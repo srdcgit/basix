@@ -187,12 +187,10 @@
 						<li class="nav-item nav-item-submenu {{Request::is('admin/country*') || Request::is('admin/state*') || Request::is('admin/district*')  || Request::is('admin/block*') || Request::is('admin/gram_panchyat*') || Request::is('admin/village*') ?'nav-item-open':''}}">
 							<a href="#" class="nav-link"><i class="icon-map"></i> <span>Locations</span></a>
 
-							<ul class="nav nav-group-sub" data-submenu-title="Layouts" style="{{Request::is('admin/country*') || Request::is('admin/state*') || Request::is('admin/city*') || Request::is('admin/village*') || Request::is('admin/district*') || Request::is('admin/police_station*') || Request::is('admin/block*') || Request::is('admin/gram_panchyat*')?'display:block':''}}">
+							<ul class="nav nav-group-sub" data-submenu-title="Layouts" style="{{Request::is('admin/country*') || Request::is('admin/state*') || Request::is('admin/village*') || Request::is('admin/district*') || Request::is('admin/block*') || Request::is('admin/gram_panchyat*')?'display:block':''}}">
 								<li class="nav-item"><a href="{{route('admin.location.report')}}" class="nav-link {{Request::is('admin/location.report')?'active':''}}">Report</a></li>
 								<li class="nav-item"><a href="{{route('admin.country.index')}}" class="nav-link {{Request::is('admin/country')?'active':''}}">Country</a></li>
 								<li class="nav-item"><a href="{{route('admin.state.index')}}" class="nav-link {{Request::is('admin/state')?'active':''}}">State</a></li>
-								<li class="nav-item"><a href="{{route('admin.city.index')}}" class="nav-link {{Request::is('admin/city')?'active':''}}">City</a></li>
-								<li class="nav-item"><a href="{{route('admin.police_station.index')}}" class="nav-link {{Request::is('admin/police_station')?'active':''}}">Police Station</a></li>
 								<li class="nav-item"><a href="{{route('admin.district.index')}}" class="nav-link {{Request::is('admin/district')?'active':''}}">District</a></li>
 								<li class="nav-item"><a href="{{route('admin.block.index')}}" class="nav-link {{Request::is('admin/block')?'active':''}}">Block</a></li>
 								<li class="nav-item"><a href="{{route('admin.gram_panchyat.index')}}" class="nav-link {{Request::is('admin/gram_panchyat')?'active':''}}">Gram Panchyat</a></li>
