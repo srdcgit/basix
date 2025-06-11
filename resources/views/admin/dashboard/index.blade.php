@@ -79,7 +79,7 @@
                     </div>
                     <div class="media-body text-right"> 
                         <h3 class="mb-0">{{App\Models\FarmingProfile::count()}}</h3>
-                        <span class="text-uppercase font-size-xs">Total Farming Profile</span>
+                        <span class="text-uppercase font-size-xs">Total Farmer Profile</span>
                     </div>
 
                 </div>
