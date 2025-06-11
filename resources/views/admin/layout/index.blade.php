@@ -137,7 +137,7 @@
 
 							<div class="media-body">
 								<div class="media-title font-weight-semibold">{{Auth::user()->name}}</div>
-								<div class="font-size-xs opacity-50">SDS
+								<div class="font-size-xs opacity-50">BASIX
 								</div>
 							</div>
 
